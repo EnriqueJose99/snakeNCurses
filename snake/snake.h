@@ -5,9 +5,9 @@
 #ifndef SNAKE_H
 #define SNAKE_H
 struct snakepart{
-		int x,y;
-			snakepart(int col, int row);
-				snakepart();
+	int x,y;
+	snakepart(int col, int row);
+	snakepart();
 };
 
 class snakeclass{
